@@ -1,0 +1,13 @@
+1718715336614|1|statement|select e1_0.etudiant_id,e1_0.ecole_id,e1_0.nom,e1_0.prenom from etudiant e1_0
+1718715336638|0|commit|
+1718715336662|2|statement|select p1_0.etudiant_id,p1_1.projet_id,p1_1.nom_projet from etudiant_projet p1_0 join projet p1_1 on p1_1.projet_id=p1_0.projet_id where p1_0.etudiant_id = any ('{"2","1"}')
+1718719463356|9|statement|select * from information_schema.sequences
+1718719463405|1|statement|select * from "public"."adresse" where 1=0
+1718719463417|1|statement|select * from "public"."ecole" where 1=0
+1718719463428|2|statement|select * from "public"."etudiant" where 1=0
+1718719463432|1|statement|select * from "public"."projet" where 1=0
+1718719923781|9|statement|select * from information_schema.sequences
+1718719923825|1|statement|select * from "public"."adresse" where 1=0
+1718719923837|1|statement|select * from "public"."ecole" where 1=0
+1718719923849|2|statement|select * from "public"."etudiant" where 1=0
+1718719923853|0|statement|select * from "public"."projet" where 1=0
